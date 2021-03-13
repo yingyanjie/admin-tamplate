@@ -1,0 +1,13 @@
+.iconLoadingClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .el-loading-spinner {
+    width: 78px !important;
+    height: 70px;
+    background: url('~@/assets/loginImg/loading.svg') no-repeat;
+    i, p, svg {
+      display: none;
+    }
+  }
+}

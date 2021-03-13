@@ -1,0 +1,712 @@
+{
+  "username": "12",
+  "userId": 1,
+  "realName": "系统管理员",
+  "menus": [
+    {
+      "code": "home",
+      "title": "首页",
+      "menuType": "MENU",
+      "menuLevel": 1,
+      "path": "/home",
+      "menuOrderNo": 1,
+      "parentId": 0,
+      "icon": "iconfont icon-shouye",
+      "children": [],
+      "menuId": 1,
+      "hidden": 0
+    },
+    {
+      "code": "appManage62222",
+      "title": "应用管理",
+      "menuType": "MENU",
+      "menuLevel": 1,
+      "path": "/appManage",
+      "menuOrderNo": 2,
+      "parentId": 0,
+      "icon": "iconfont icon-rizhi",
+      "children": [
+        {
+          "code": "app26583",
+          "title": "应用管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/appManage/app",
+          "menuOrderNo": 1,
+          "parentId": 2,
+          "icon": "",
+          "children": [],
+          "menuId": 3,
+          "hidden": 0
+        },
+        {
+          "code": "menu19010",
+          "title": "菜单配置",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/appManage/menu",
+          "menuOrderNo": 2,
+          "parentId": 2,
+          "icon": "",
+          "children": [],
+          "menuId": 4,
+          "hidden": 0
+        }
+      ],
+      "menuId": 2,
+      "hidden": 0
+    },
+    {
+      "code": "factoryManage25371",
+      "title": "厂家管理",
+      "menuType": "MENU",
+      "menuLevel": 1,
+      "path": "/factoryManage",
+      "menuOrderNo": 3,
+      "parentId": 0,
+      "icon": "iconfont icon-danchuangneiriqi",
+      "children": [
+        {
+          "code": "DeviceInfo34722",
+          "title": "设备信息",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/factoryManage/DeviceInfo",
+          "menuOrderNo": 1,
+          "parentId": 5,
+          "icon": "",
+          "children": [],
+          "menuId": 6,
+          "hidden": 0
+        }
+      ],
+      "menuId": 5,
+      "hidden": 0
+    },
+    {
+      "code": "messageCenter51677",
+      "title": "消息中心",
+      "menuType": "MENU",
+      "menuLevel": 1,
+      "path": "/messageCenter",
+      "menuOrderNo": 5,
+      "parentId": 0,
+      "icon": "iconfont icon-xiaoxiguanli2",
+      "children": [
+        {
+          "code": "templateManage94244",
+          "title": "模版管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/messageCenter/templateManage",
+          "menuOrderNo": 1,
+          "parentId": 9,
+          "icon": "",
+          "children": [],
+          "menuId": 10,
+          "hidden": 0
+        },
+        {
+          "code": "mgeSending81222",
+          "title": "消息发送",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/messageCenter/mgeSending",
+          "menuOrderNo": 2,
+          "parentId": 9,
+          "icon": "",
+          "children": [],
+          "menuId": 11,
+          "hidden": 0
+        },
+        {
+          "code": "waitSend43667",
+          "title": "待发送消息",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/messageCenter/waitSend",
+          "menuOrderNo": 3,
+          "parentId": 9,
+          "icon": "",
+          "children": [],
+          "menuId": 12,
+          "hidden": 0
+        },
+        {
+          "code": "sendHistory14634",
+          "title": "已发送记录",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/messageCenter/sendHistory",
+          "menuOrderNo": 4,
+          "parentId": 9,
+          "icon": "",
+          "children": [],
+          "menuId": 13,
+          "hidden": 0
+        }
+      ],
+      "menuId": 9,
+      "hidden": 0
+    },
+    {
+      "code": "order79155",
+      "title": "订单管理",
+      "menuType": "MENU",
+      "menuLevel": 1,
+      "path": "/order",
+      "menuOrderNo": 6,
+      "parentId": 0,
+      "icon": "iconfont icon-dingdanguanli",
+      "children": [
+        {
+          "code": "CreateOrder24656",
+          "title": "创建订单",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/order/CreateOrder",
+          "menuOrderNo": 1,
+          "parentId": 14,
+          "icon": "",
+          "children": [],
+          "menuId": 15,
+          "hidden": 0
+        },
+        {
+          "code": "EditOrder75657",
+          "title": "编辑订单",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/order/EditOrder",
+          "menuOrderNo": 2,
+          "parentId": 14,
+          "icon": "",
+          "children": [],
+          "menuId": 16,
+          "hidden": 1
+        },
+        {
+          "code": "OrderDetail52846",
+          "title": "订单详情",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/order/OrderDetail",
+          "menuOrderNo": 3,
+          "parentId": 14,
+          "icon": "",
+          "children": [],
+          "menuId": 17,
+          "hidden": 1
+        },
+        {
+          "code": "orderManage35281",
+          "title": "订单管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/order/orderManage",
+          "menuOrderNo": 4,
+          "parentId": 14,
+          "icon": "",
+          "children": [],
+          "menuId": 18,
+          "hidden": 0
+        },
+        {
+          "code": "intentionOrder77092",
+          "title": "意向订单",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/order/intentionOrder",
+          "menuOrderNo": 5,
+          "parentId": 14,
+          "icon": "",
+          "children": [],
+          "menuId": 19,
+          "hidden": 0
+        }
+      ],
+      "menuId": 14,
+      "hidden": 0
+    },
+    {
+      "code": "portalManage46846",
+      "title": "门户后台管理",
+      "menuType": "MENU",
+      "menuLevel": 1,
+      "path": "/portalManage",
+      "menuOrderNo": 8,
+      "parentId": 0,
+      "icon": "iconfont icon-peizhi",
+      "children": [
+        {
+          "code": "MenuAdministration71684",
+          "title": "菜单管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/portalManage/MenuAdministration",
+          "menuOrderNo": 1,
+          "parentId": 22,
+          "icon": "",
+          "children": [],
+          "menuId": 23,
+          "hidden": 0
+        },
+        {
+          "code": "ContentAdministration10456",
+          "title": "内容管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/portalManage/ContentAdministration",
+          "menuOrderNo": 2,
+          "parentId": 22,
+          "icon": "",
+          "children": [],
+          "menuId": 24,
+          "hidden": 0
+        },
+        {
+          "code": "BannerAdministration21349",
+          "title": "banner管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/portalManage/BannerAdministration",
+          "menuOrderNo": 3,
+          "parentId": 22,
+          "icon": "",
+          "children": [],
+          "menuId": 25,
+          "hidden": 0
+        }
+      ],
+      "menuId": 22,
+      "hidden": 0
+    },
+    {
+      "code": "systemManage98151",
+      "title": "系统管理",
+      "menuType": "MENU",
+      "menuLevel": 1,
+      "path": "/systemManage",
+      "menuOrderNo": 9,
+      "parentId": 0,
+      "icon": "iconfont icon-xitongguanli",
+      "children": [
+        {
+          "code": "organi22164",
+          "title": "组织架构",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/systemManage/organi",
+          "menuOrderNo": 1,
+          "parentId": 26,
+          "icon": "",
+          "children": [],
+          "menuId": 27,
+          "hidden": 0
+        },
+        {
+          "code": "role12446",
+          "title": "角色管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/systemManage/role",
+          "menuOrderNo": 2,
+          "parentId": 26,
+          "icon": "",
+          "children": [],
+          "menuId": 28,
+          "hidden": 0
+        },
+        {
+          "code": "juris92875",
+          "title": "权限管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/systemManage/juris",
+          "menuOrderNo": 3,
+          "parentId": 26,
+          "icon": "",
+          "children": [],
+          "menuId": 29,
+          "hidden": 0
+        },
+        {
+          "code": "DataDictionary30044",
+          "title": "数据字典",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/systemManage/DataDictionary",
+          "menuOrderNo": 4,
+          "parentId": 26,
+          "icon": "",
+          "children": [],
+          "menuId": 30,
+          "hidden": 0
+        },
+        {
+          "code": "CodeingRules5795",
+          "title": "编码规则配置",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/systemManage/CodeingRules",
+          "menuOrderNo": 5,
+          "parentId": 26,
+          "icon": "",
+          "children": [],
+          "menuId": 31,
+          "hidden": 0
+        }
+      ],
+      "menuId": 26,
+      "hidden": 0
+    },
+    {
+      "code": "tenantManage33946",
+      "title": "租户管理",
+      "menuType": "MENU",
+      "menuLevel": 1,
+      "path": "/tenantManage",
+      "menuOrderNo": 10,
+      "parentId": 0,
+      "icon": "iconfont icon-zuhuguanli",
+      "children": [
+        {
+          "code": "tenantMng99675",
+          "title": "租户管理",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/tenantManage/tenantMng",
+          "menuOrderNo": 1,
+          "parentId": 32,
+          "icon": "",
+          "children": [],
+          "menuId": 33,
+          "hidden": 0
+        },
+        {
+          "code": "appConfig23274",
+          "title": "应用配置",
+          "menuType": "MENU",
+          "menuLevel": 2,
+          "path": "/tenantManage/appConfig",
+          "menuOrderNo": 2,
+          "parentId": 32,
+          "icon": "",
+          "children": [],
+          "menuId": 34,
+          "hidden": 0
+        }
+      ],
+      "menuId": 32,
+      "hidden": 0
+    }
+  ],
+  "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMiIsImx0ZG5vIjowLCJ0ZW5hbnRJZCI6MCwiZGVmYXVsdF9sdGRubyI6MCwiZXhwIjoxNjE3MDk3NDMwLCJ1c2VySWQiOjEsImlhdCI6MTYxNTYyNjIwMSwidXNlcm5hbWUiOiIxMiJ9.gKpQGORATElUQIX1KwyQ2C9agYChOahYbmDoB6GJJcUTp9EszIUF6l5jZRa46plJa4ujs7238VGoWxITJ7Pz6iu0MFoq4iSMN2OVl6eGkYBdbimY2aNQCmO2B02yCUC3u1riQUP5vt0kgJGad2oCvtTsPJ7i3G7cozeIpO7mEHQ",
+  "permissions": [
+    {
+      "code": "app26583",
+      "title": null,
+      "parentId": 2,
+      "name": "应用管理",
+      "menuType": "MENU",
+      "menuId": 3,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "DELETE",
+        "EDIT",
+        "START/STOP"
+      ]
+    },
+    {
+      "code": "menu19010",
+      "title": null,
+      "parentId": 2,
+      "name": "菜单配置",
+      "menuType": "MENU",
+      "menuId": 4,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "DELETE",
+        "EDIT",
+        "START/STOP"
+      ]
+    },
+    {
+      "code": "DeviceInfo34722",
+      "title": null,
+      "parentId": 5,
+      "name": "设备信息",
+      "menuType": "MENU",
+      "menuId": 6,
+      "tabs": [],
+      "permission": [
+        "F_ADD",
+        "F_DELETE",
+        "F_EDIT",
+        "ADD",
+        "DELETE",
+        "EDIT",
+        "LOOK"
+      ]
+    },
+    {
+      "code": "orderManage35281",
+      "title": null,
+      "parentId": 14,
+      "name": "订单管理",
+      "menuType": "MENU",
+      "menuId": 18,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "EDIT",
+        "INPORT",
+        "DELETE",
+        "SEND"
+      ]
+    },
+    {
+      "code": "intentionOrder77092",
+      "title": null,
+      "parentId": 14,
+      "name": "意向订单",
+      "menuType": "MENU",
+      "menuId": 19,
+      "tabs": [],
+      "permission": [
+        "DEAL"
+      ]
+    },
+    {
+      "code": "MenuAdministration71684",
+      "title": null,
+      "parentId": 22,
+      "name": "菜单管理",
+      "menuType": "MENU",
+      "menuId": 23,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "MODIFY",
+        "DELETE"
+      ]
+    },
+    {
+      "code": "ContentAdministration10456",
+      "title": null,
+      "parentId": 22,
+      "name": "内容管理",
+      "menuType": "MENU",
+      "menuId": 24,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "MODIFY",
+        "DELETE"
+      ]
+    },
+    {
+      "code": "BannerAdministration21349",
+      "title": null,
+      "parentId": 22,
+      "name": "banner管理",
+      "menuType": "MENU",
+      "menuId": 25,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "MODIFY",
+        "DELETE"
+      ]
+    },
+    {
+      "code": "organi22164",
+      "title": null,
+      "parentId": 26,
+      "name": "组织架构",
+      "menuType": "MENU",
+      "menuId": 27,
+      "tabs": [],
+      "permission": [
+        "ADD_ORGANIZA",
+        "EDIT_ORGANIZA",
+        "DETELE_ORGANIZA",
+        "ADD",
+        "EDIT",
+        "DELETE",
+        "START/STOP"
+      ]
+    },
+    {
+      "code": "role12446",
+      "title": null,
+      "parentId": 26,
+      "name": "角色管理",
+      "menuType": "MENU",
+      "menuId": 28,
+      "tabs": [],
+      "permission": [
+        "ADD_ROLE",
+        "EDIT_ROLE",
+        "DETELE_ROLE",
+        "ADD_STAFF",
+        "DETELE_STAFF",
+        "BATCH_DETELE_STAFF"
+      ]
+    },
+    {
+      "code": "juris92875",
+      "title": null,
+      "parentId": 26,
+      "name": "权限管理",
+      "menuType": "MENU",
+      "menuId": 29,
+      "tabs": [],
+      "permission": [
+        "PRESERVATION"
+      ]
+    },
+    {
+      "code": "DataDictionary30044",
+      "title": null,
+      "parentId": 26,
+      "name": "数据字典",
+      "menuType": "MENU",
+      "menuId": 30,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "EDIT",
+        "CONFIGURE"
+      ]
+    },
+    {
+      "code": "CodeingRules5795",
+      "title": null,
+      "parentId": 26,
+      "name": "编码规则配置",
+      "menuType": "MENU",
+      "menuId": 31,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "EDIT",
+        "DELETE"
+      ]
+    },
+    {
+      "code": "tenantMng99675",
+      "title": null,
+      "parentId": 32,
+      "name": "租户管理",
+      "menuType": "MENU",
+      "menuId": 33,
+      "tabs": [],
+      "permission": [
+        "ADD_TENANT",
+        "ADD_CUSTOMER",
+        "EDIT",
+        "ACTIVATION"
+      ]
+    },
+    {
+      "code": "appConfig23274",
+      "title": null,
+      "parentId": 32,
+      "name": "应用配置",
+      "menuType": "MENU",
+      "menuId": 34,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "EDIT",
+        "DELETE"
+      ]
+    },
+    {
+      "code": "templateManage94244",
+      "title": null,
+      "parentId": 9,
+      "name": "模版管理",
+      "menuType": "MENU",
+      "menuId": 10,
+      "tabs": [],
+      "permission": [
+        "ADD",
+        "EDIT_TEM",
+        "EDIT_MES",
+        "DELETE",
+        "LOOK"
+      ]
+    },
+    {
+      "code": "mgeSending81222",
+      "title": null,
+      "parentId": 9,
+      "name": "消息发送",
+      "menuType": "MENU",
+      "menuId": 11,
+      "tabs": [],
+      "permission": [
+        "ADD"
+      ]
+    },
+    {
+      "code": "waitSend43667",
+      "title": null,
+      "parentId": 9,
+      "name": "待发送消息",
+      "menuType": "MENU",
+      "menuId": 12,
+      "tabs": [
+        {
+          "name": "业务消息",
+          "tcode": "CUSTOMER",
+          "permission": [
+            "SEND",
+            "MODIFY"
+          ]
+        },
+        {
+          "name": "一般消息",
+          "tcode": "NAOMAL_MES",
+          "permission": [
+            "SEND",
+            "MODIFY"
+          ]
+        }
+      ],
+      "permission": []
+    },
+    {
+      "code": "sendHistory14634",
+      "title": null,
+      "parentId": 9,
+      "name": "已发送记录",
+      "menuType": "MENU",
+      "menuId": 13,
+      "tabs": [
+        {
+          "name": "业务消息",
+          "tcode": "CUSTOMER",
+          "permission": [
+            "SEND",
+            "MODIFY"
+          ]
+        },
+        {
+          "name": "一般消息",
+          "tcode": "NAOMAL_MES",
+          "permission": [
+            "SEND",
+            "MODIFY"
+          ]
+        }
+      ],
+      "permission": []
+    }
+  ],
+  "mobile": "187990567809"
+}
